@@ -1,14 +1,15 @@
 import './App.css';
 import './styles.css';
 import Header from './components/Header'
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <footer className="footer">
-        <p>© 2024 MovieApp. All rights reserved.</p>
-      </footer>
+      <div className="container">
+        <Header />
+      </div>
+      <Footer />
     </div>
   );
 }
